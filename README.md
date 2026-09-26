@@ -8,7 +8,7 @@
 * Khyla Enriquez — Team Lead
 * Jhon Kenneth Nocom — Documentation 
 * Ryza Mae Rivas — Diagrammer
-* Ace Andrei Marcos — Presenter
+* Ace Andrei D. Marcos — Presenter
 
 
 ## Project Summary
