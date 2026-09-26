@@ -8,7 +8,7 @@
 * Khyla D. Enriquez — Team Lead
 * Jhon Kenneth Nocom — Documentation 
 * Ryza Mae M. Rivas — Diagrammer
-* Ace Andrei Marcos — Presenter
+* Ace Andrei D. Marcos — Presenter
 
 
 ## Project Summary
@@ -42,6 +42,5 @@ Then enter the project folder:
 ```bash
 cd ITE412_SIA2_Group7_LaundryProject
 ```
-
 
 
