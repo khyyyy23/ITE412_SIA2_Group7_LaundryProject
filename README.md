@@ -34,13 +34,13 @@ SPNRCO is a laundry booking app that allows customers to book laundry services t
 Clone the repository using:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/khyyyy23/ITE412_SIA2_Group7_LaundryProject
 ```
 
 Then enter the project folder:
 
 ```bash
-cd ITE412_SIA2_[TeamName]_Project
+cd ITE412_SIA2_Group7_LaundryProject
 ```
 
 
