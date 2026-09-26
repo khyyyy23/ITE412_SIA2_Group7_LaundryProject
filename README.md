@@ -5,9 +5,9 @@
 **Repository:** [https://github.com/khyyyy23/ITE412_SIA2_Group7_LaundryProject]
 ## Team Members & Roles
 
-* Khyla Enriquez — Team Lead
+* Khyla D. Enriquez — Team Lead
 * Jhon Kenneth Nocom — Documentation 
-* Ryza Mae Rivas — Diagrammer
+* Ryza Mae M. Rivas — Diagrammer
 * Ace Andrei D. Marcos — Presenter
 
 
@@ -42,6 +42,5 @@ Then enter the project folder:
 ```bash
 cd ITE412_SIA2_Group7_LaundryProject
 ```
-
 
 
