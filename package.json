@@ -1,0 +1,27 @@
+{
+  "name": "ite412_sia2_group7_laundryproject",
+  "version": "1.0.0",
+  "description": "**Course:** ITE412 – System Integration and Architecture 2\r **Team Name:** Group 7\r **Repository:** [https://github.com/khyyyy23/ITE412_SIA2_Group7_LaundryProject]\r ## Team Members & Roles",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khyyyy23/ITE412_SIA2_Group7_LaundryProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khyyyy23/ITE412_SIA2_Group7_LaundryProject/issues"
+  },
+  "homepage": "https://github.com/khyyyy23/ITE412_SIA2_Group7_LaundryProject#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
