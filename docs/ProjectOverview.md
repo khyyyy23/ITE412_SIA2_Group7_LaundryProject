@@ -109,11 +109,11 @@ Customers provide their account information, laundry details and booking informa
 
 ### Integration Pattern
 
-SPNRCO uses a REST API integration pattern to allow the system modules to communicate through HTTP requests. The main modules used for this activity are the Customer module and Laundry Booking module.
+Hub-Spoke
 
 ### Rationale
 
-REST API was selected because it is simple and suitable for connecting different parts of the SPNRCO system. It allows the system to send and retrieve information using HTTP methods such as GET and POST. It also makes it easier to test the communication between modules using Postman.
+The Hub-Spoke pattern is used because SPNRCO has several modules that need to communicate with each other. The Integration Hub acts as the central point that receives and routes requests between the modules. Customers, shop owners, and administrators can communicate with the system through the Hub. This reduces the need for direct connections between every module and makes the system easier to organize and maintain.
 
 
 
