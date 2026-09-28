@@ -105,6 +105,17 @@ The system uses a firebase database to store user accounts, laundry bookings, la
 
 Customers provide their account information, laundry details and booking information through the system. The system stores the information in the database and sends the booking details to the shop owner. The shop owner manages the laundry booking, updates the laundry status, and handles the delivery. The administrator manages users, services, bookings, and system records. Updated information and booking status are then provided to the appropriate users.
 
+## Integration Pattern & Rationale
+
+### Integration Pattern
+
+SPNRCO uses a REST API integration pattern to allow the system modules to communicate through HTTP requests. The main modules used for this activity are the Customer module and Laundry Booking module.
+
+### Rationale
+
+REST API was selected because it is simple and suitable for connecting different parts of the SPNRCO system. It allows the system to send and retrieve information using HTTP methods such as GET and POST. It also makes it easier to test the communication between modules using Postman.
+
+
 
 ## Messaging Workflow
 
