@@ -80,3 +80,8 @@ Other advanced features that are not required for the initial version of the sys
 
 * Postman
 * Browser Developer Tools
+
+## Messaging Workflow
+
+SPNRCO uses messaging middleware to connect the Laundry Booking Module and the Laundry Management Module. When a customer creates a laundry booking, the Booking Module acts as the producer and sends the booking information to the message queue. The consumer then receives the booking from the queue and processes it. The booking is accepted or rejected based on the set processing rule. This allows the modules to communicate without processing the request at the same time.
+
