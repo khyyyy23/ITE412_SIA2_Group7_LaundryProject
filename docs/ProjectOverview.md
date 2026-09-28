@@ -81,6 +81,34 @@ Other advanced features that are not required for the initial version of the sys
 * Postman
 * Browser Developer Tools
 
+## High-Level System Overview
+
+### Major Modules/Subsystems
+
+**1. User Account Management**
+This module manages customer, shop owner, and administrator accounts. It handles registration, login, and user information.
+
+**2. Laundry Booking Management**
+This module allows customers to select laundry services, provide laundry details, and create bookings. Shop owners can view and update the booking status.
+
+**3. Laundry and Delivery Management**
+This module manages the laundry process and delivery updates. The shop owner handles the delivery of the customer's laundry.
+
+**4. Payment Management**
+This module records payment information and payment status for laundry bookings.
+
+**5. Administration and Reports**
+This module allows the administrator to manage users, bookings, services, and system records. It also provides reports that can help monitor the system.
+
+### External Systems/Interfaces
+
+The system uses a database to store user accounts, laundry bookings, laundry records, payment information, and other system data. If online payment is included, the system may also connect to a payment service for processing payments.
+
+### Data Flow Summary
+
+Customers provide their account information, laundry details, booking information, and payment information through the system. The system stores the information in the database and sends the booking details to the shop owner. The shop owner manages the laundry booking, updates the laundry status, and handles the delivery. The administrator manages users, services, bookings, and system records. Updated information and booking status are then provided to the appropriate users.
+
+
 ## Messaging Workflow
 
 SPNRCO uses messaging middleware to connect the Laundry Booking Module and the Laundry Management Module. When a customer creates a laundry booking, the Booking Module acts as the producer and sends the booking information to the message queue. The consumer then receives the booking from the queue and processes it. The booking is accepted or rejected based on the set processing rule. This allows the modules to communicate without processing the request at the same time.
