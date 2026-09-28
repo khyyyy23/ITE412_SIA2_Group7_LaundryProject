@@ -94,19 +94,16 @@ This module allows customers to select laundry services, provide laundry details
 **3. Laundry and Delivery Management**
 This module manages the laundry process and delivery updates. The shop owner handles the delivery of the customer's laundry.
 
-**4. Payment Management**
-This module records payment information and payment status for laundry bookings.
-
-**5. Administration and Reports**
+**4. Administration and Reports**
 This module allows the administrator to manage users, bookings, services, and system records. It also provides reports that can help monitor the system.
 
 ### External Systems/Interfaces
 
-The system uses a database to store user accounts, laundry bookings, laundry records, payment information, and other system data. If online payment is included, the system may also connect to a payment service for processing payments.
+The system uses a firebase database to store user accounts, laundry bookings, laundry records, and other system data. 
 
 ### Data Flow Summary
 
-Customers provide their account information, laundry details, booking information, and payment information through the system. The system stores the information in the database and sends the booking details to the shop owner. The shop owner manages the laundry booking, updates the laundry status, and handles the delivery. The administrator manages users, services, bookings, and system records. Updated information and booking status are then provided to the appropriate users.
+Customers provide their account information, laundry details and booking information through the system. The system stores the information in the database and sends the booking details to the shop owner. The shop owner manages the laundry booking, updates the laundry status, and handles the delivery. The administrator manages users, services, bookings, and system records. Updated information and booking status are then provided to the appropriate users.
 
 
 ## Messaging Workflow
