@@ -118,6 +118,7 @@ In the SPNRCO Laundry Booking and Delivery App Management system, the Hub-Spoke 
 
 The Hub-Spoke pattern is used because SPNRCO has several modules that need to communicate with each other. The Integration Hub acts as the central point that receives and routes requests between the modules. Customers, shop owners, and administrators can communicate with the system through the Hub. This reduces the need for direct connections between every module and makes the system easier to organize and maintain.
 
+![alt text](HighLevelArch.png)
 
 
 ## Messaging Workflow
