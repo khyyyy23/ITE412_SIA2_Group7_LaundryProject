@@ -111,6 +111,9 @@ Customers provide their account information, laundry details and booking informa
 
 Hub-Spoke
 
+In the SPNRCO Laundry Booking and Delivery App Management system, the Hub-Spoke pattern is used to manage communication between the modules. When a customer creates an account or makes a laundry booking, the request is sent to the Integration Hub through the REST API. The Hub routes the request to the User Management or Laundry Booking Module. The Laundry Booking Module sends the booking information to the database and makes it available to the shop owner. The Laundry and Delivery Module receives the booking details through the Hub and updates the laundry and delivery status. The Payment Module also communicates through the Hub to record payment information and payment status. The Administrator can access system information through the Hub to manage users, bookings, services, and reports.
+
+
 ### Rationale
 
 The Hub-Spoke pattern is used because SPNRCO has several modules that need to communicate with each other. The Integration Hub acts as the central point that receives and routes requests between the modules. Customers, shop owners, and administrators can communicate with the system through the Hub. This reduces the need for direct connections between every module and makes the system easier to organize and maintain.
